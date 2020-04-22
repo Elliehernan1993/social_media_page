@@ -1,0 +1,256 @@
+body {
+    margin: 0 auto;
+    width: 850px;
+    background-color: #eee;
+    font-family: Arial;
+}
+
+
+.big-blue-header {
+    height: 320px; 
+    width: 849px;
+    background-color: #3b5998;
+    border: .5px solid rgb(214, 214, 214);
+    }
+
+.top-profile-pic {
+    height: 200px;
+    width: 200px;
+    background-color: #3b5998;
+    border: .5px solid black;
+    position: relative;
+    border-radius: 1.7px;
+    top: 160px;
+    left: 20px;
+}
+
+.header-text1 {
+    color: white;
+    font-size: 20px;
+
+    font-weight: bold;
+    position: relative; 
+    left: 230px;
+}
+
+.header-text2 {
+    color: white;
+    font-family: Arial; 
+    position: relative;
+    left: 230px;
+}
+
+.navbar {
+    height: 60px;
+    width: 849px;
+    margin: 0 auto; 
+    background-color: white;
+    border: .5px solid rgb(214, 214, 214);
+    }
+
+.like-button {
+    height: 25px;
+    width: 60px;
+    color: rgb(99, 99, 99);
+    text-align: center;
+    padding: 1px;
+    margin: 0;
+    background-color: white;
+    position: relative;
+    top: -20px;
+    border-radius: 5%;
+    border-color: darkslategray;
+}    
+.button-bar {
+    background-color: white;
+    height: 25px;
+    width: 170px;
+    position: relative;
+    bottom: 62px;
+    left: 625px;
+    list-style-type: none;
+    border-radius: 5%;
+    border-color: darkslategray;
+    padding: 1px;
+    display: block;
+    text-decoration: none; 
+}   
+
+.button-bar li {
+    float: left;
+}
+
+.Follow {
+    color: rgb(143, 143, 143);
+    padding: 0px 3px;
+    border-right: 1px solid darkslategray;
+}
+
+.Message {
+    color: rgb(99, 99, 99);
+    padding: 0px 3px;
+    border-right: 1px solid darkslategray;
+
+}
+
+.etc {
+    color: rgb(99, 99, 99);
+    padding: 0px 3px;
+    font-weight: bold;
+
+}
+
+#horizontal-list li {
+    display: inline;
+}
+
+#horizontal-list {
+    margin-top: 0;
+    position: relative;
+    left: 100px; 
+    padding-top: 20px;
+}
+
+.timeline {
+    font-family: arial; 
+    font-weight: bold;
+    border-bottom: 3px solid #3b5998;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.link {
+    font-family: arial;
+    border-right: 1px solid #eee;
+    padding-bottom: 6px;
+    padding-right: 20px;
+}
+
+.more{
+    font-family: arial;
+}
+
+.like-button {
+    font-family: arial;
+    position: relative; 
+    left: 550px;
+}
+
+
+.left-column {
+    margin-top: 10px;
+    height: 1000px;
+    /* ^^^^ Test values, remove before pushing ^^^^ */
+    float: left;
+    width: 328px;
+    margin-right: 10px;
+}
+
+.emptybox1 {
+    height: 30px;
+    width: 327px;
+    background-color: white;
+    border: .5px solid rgb(214, 214, 214);
+    margin-bottom: 0px;
+}
+
+.about-box {
+    height: 130px;
+    width: 327px;
+    background-color: white;
+    border: .5px solid rgb(214, 214, 214);
+ 
+}
+
+.paragraph1 {
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+
+.paragraph2 {
+    font-family: arial;
+    color: #3b5998;
+    position: relative;
+    left: 10px;
+}
+
+.box2 {
+    height: 40px;
+    width: 327px;
+    color: #3b5998;
+    font-weight: bold;
+    background-color: white;
+    font-family: arial;
+    border: .5px solid rgb(214, 214, 214);
+
+}
+
+.right-column {
+    height: 1000px;
+    float: right;
+}
+
+.right-box1 {
+    height: 210px;
+    width: 511px;
+    background-color: white;
+    margin-top: 10px;
+    border: .5px solid rgb(214, 214, 214);
+   
+}
+    
+}
+
+.mini-profilepic { 
+    height: 55px;
+    width: 55px;
+    background-color: #3b5998;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    float: left;
+}
+
+.right-paragraph1 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: arial;
+    color: #3b5998;
+    position: relative;
+    top: 20px; 
+    left: 30px;
+}
+
+.right-paragraph2 {
+    font-size: 14px;
+    font-family: arial;
+    color: darkslategray;
+    position:relative;
+    top: 10px;
+    left: 30px;
+}
+
+.right-paragraph3 {
+    font-size: 16px;
+    font-family: arial;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    padding-right: 10px;
+}
+
+.right-box2 {
+    height: 40px;
+    width: 511px;
+    background-color: #ebeeee;
+    border: .5px solid rgb(214, 214, 214);
+}
+
+.right-paragraph4 {
+    font-size: 14px;
+    color: #3b5998;
+    position: relative;
+    left: 20px;
+}
